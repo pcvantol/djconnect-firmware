@@ -1,0 +1,23 @@
+{
+  "version": "3.1.24",
+  "version_tag": "v3.1.24",
+  "channel": "stable",
+  "min_ha_integration": "3.1.0",
+  "max_ha_integration": "3.2.0",
+  "firmwares": [
+    {
+      "board": "t_embed_cc1101",
+      "device": "lilygo-t-embed-s3",
+      "asset": "djconnect-lilygo-t-embed-s3-v3.1.24.bin",
+      "sha256": "38a4c1df488ad2dcc534308133ac86264c0e7cfcab9acece550c02115743b0b6",
+      "size": 2711056
+    },
+    {
+      "board": "esp32_s3_box3",
+      "device": "esp32-s3-box-3",
+      "asset": "djconnect-esp32-s3-box-3-v3.1.24.bin",
+      "sha256": "6ee0b8fa0e3fadc6ccbc6daee8130b206dee5b00310957f0d839fb3177212963",
+      "size": 2678928
+    }
+  ]
+}
