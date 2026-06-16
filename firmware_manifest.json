@@ -1,6 +1,6 @@
 {
-  "version": "3.1.26",
-  "version_tag": "v3.1.26",
+  "version": "3.1.27",
+  "version_tag": "v3.1.27",
   "channel": "stable",
   "min_ha_integration": "3.1.0",
   "max_ha_integration": "3.2.0",
@@ -8,16 +8,16 @@
     {
       "board": "t_embed_cc1101",
       "device": "lilygo-t-embed-s3",
-      "asset": "djconnect-lilygo-t-embed-s3-v3.1.26.bin",
-      "sha256": "a534c1c53bac41c9f0e76017e6a8f24352dad688c0ea5a8de4e8cf0660962818",
-      "size": 2711056
+      "asset": "djconnect-lilygo-t-embed-s3-v3.1.27.bin",
+      "sha256": "0f88705856b02d9c46f019774d236750b0579dfe25dc2c93bca28cc450d9a133",
+      "size": 2719360
     },
     {
       "board": "esp32_s3_box3",
       "device": "esp32-s3-box-3",
-      "asset": "djconnect-esp32-s3-box-3-v3.1.26.bin",
-      "sha256": "c3b58ec1d27ee4b2b7071cbd0bdc75abedfc150ebabc6454e3e65564a4fb7b72",
-      "size": 2678928
+      "asset": "djconnect-esp32-s3-box-3-v3.1.27.bin",
+      "sha256": "f6f5ffedc25fad2dbb9af8a84cc602a354c355ff734ab117b3328bba64cf1a45",
+      "size": 2687408
     }
   ]
 }
