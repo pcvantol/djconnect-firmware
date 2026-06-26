@@ -1,16 +1,16 @@
 {
-  "version": "3.1.37",
-  "version_tag": "v3.1.37",
+  "version": "3.2.0",
+  "version_tag": "v3.2.0",
   "channel": "stable",
-  "min_ha_integration": "3.1.0",
-  "max_ha_integration": "3.2.0",
+  "min_ha_integration": "3.2.0",
+  "max_ha_integration": "3.3.0",
   "firmwares": [
     {
       "board": "t_embed_cc1101",
       "device": "lilygo-t-embed-s3",
-      "asset": "djconnect-lilygo-t-embed-s3-v3.1.37.bin",
-      "sha256": "e998d0db6f150e3af9f01f96ed8a301981271dbfa91239f01fca4e4c607712da",
-      "size": 2733536
+      "asset": "djconnect-lilygo-t-embed-s3-v3.2.0.bin",
+      "sha256": "eebd503a29d2191c03a916bbefbb303083cb89d30b71f36800efdcb800cdd2a7",
+      "size": 2736496
     }
   ]
 }
