@@ -1,6 +1,6 @@
 {
-  "version": "3.2.0",
-  "version_tag": "v3.2.0",
+  "version": "3.2.1",
+  "version_tag": "v3.2.1",
   "channel": "stable",
   "min_ha_integration": "3.2.0",
   "max_ha_integration": "3.3.0",
@@ -8,9 +8,9 @@
     {
       "board": "t_embed_cc1101",
       "device": "lilygo-t-embed-s3",
-      "asset": "djconnect-lilygo-t-embed-s3-v3.2.0.bin",
-      "sha256": "eebd503a29d2191c03a916bbefbb303083cb89d30b71f36800efdcb800cdd2a7",
-      "size": 2736496
+      "asset": "djconnect-lilygo-t-embed-s3-v3.2.1.bin",
+      "sha256": "165d4c4be4c04a9af2e9fd727470730489927cb5f245af3bbb6cbe11ef035b29",
+      "size": 2736784
     }
   ]
 }
