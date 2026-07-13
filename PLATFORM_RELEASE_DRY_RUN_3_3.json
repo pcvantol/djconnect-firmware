@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "kind": "platform_release_distribution_dry_run",
+  "platform_version": "3.3",
+  "repository_version": "3.3.0",
+  "planned_asset": "djconnect-lilygo-t-embed-s3-v3.3.0.bin",
+  "artifact_state": "planned_not_published",
+  "release_mode": "dry_run",
+  "publication": "forbidden"
+}
