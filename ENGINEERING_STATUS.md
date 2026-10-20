@@ -1,47 +1,48 @@
 # Firmware Distribution Engineering Status
 
-20 October 2026 — RG-FIRMWARE-001 reconciliation.
+20 October 2026 — README wordmark Finalization.
 
 ## Repository Status
 
-Predecessor: [PR #8 — establish firmware distribution governance](https://github.com/pcvantol/djconnect-firmware/pull/8), protected merge `c525d6a3c69f8cf45bd5cbd06f2cbac2cac9082e`.
-Admission/current remote main: `2b6a6936decff63d94c1ed3af53c46ba7888dfd6`, including subsequent maintenance through [PR #25](https://github.com/pcvantol/djconnect-firmware/pull/25).
-The governance predecessor is contained in main; the four rolling records still described its premerge state. This bounded Finalization repairs that documentary divergence, without qualifying historical firmware artifacts or rerunning historical releases.
-Current phase CI and independent review must pass on this Finalization's own exact SHA. Historical CI, runtime and HACS outcomes are not asserted by this reconciliation. This distribution repo has no HACS integration delivery.
+Predecessor: [PR #27 — Brand V2 wordmark in distribution README](https://github.com/pcvantol/djconnect-firmware/pull/27), protected merge `b7342d3e269899c779ca3947c6bdc7e9fb3a13fa`.
+Exact independently reviewed source candidate: `9fc6d3092cbd1b6dccf91efb303c89f9dc097558`.
+Candidate and merged complete Git trees equal: `82b1b8afde981f223b861e812d5a3a6be0614832`.
+Both required source checks passed; Owner Authorization reports success, not required for LOW_RISK or NORMAL_RISK, on the exact source candidate. No historical or post-merge main CI result is inferred. No HACS integration delivery belongs to this repository.
 
 ## Management Summary
 
-Completion Report: [governance reconciliation history](docs/history/prompts/2026-10-20-firmware-governance-reconciliation.md).
+Completion Report: [README wordmark Finalization history](docs/history/prompts/2026-10-20-firmware-readme-wordmark-finalization.md).
 
-RG-FIRMWARE-001 governance adoption is already merged. Distribution ownership remains binaries, manifest, integrity metadata and public install/release documentation; product logic and contracts remain in their owning repositories.
-Recent verified merged outcomes, newest first at admission:
+The approved dark/light primary wordmark is inserted immediately below the existing README H1. Both image URLs pin accepted Core producer `7e14e5970b3f68d33d243ae6bab2b281fad59bb2`; width 640 and accessible alt DJConnect. All prior README bytes remain unchanged. No corporate asset is recreated; no firmware artifact, manifest, workflow, credential or runtime behavior changes.
 
-- [PR #25](https://github.com/pcvantol/djconnect-firmware/pull/25), `2b6a6936decff63d94c1ed3af53c46ba7888dfd6`: immutable upload-artifact maintenance; no new firmware artifact or installed qualification claimed here.
-- [PR #23](https://github.com/pcvantol/djconnect-firmware/pull/23), `cb9cc7ba321ca57675223dfac32f5583fbcb3656`: private vulnerability reporting policy; no runtime or release behavior delivered by this reconciliation.
+Two most recent merged outcomes at this readback:
+
+- [PR #27](https://github.com/pcvantol/djconnect-firmware/pull/27), `b7342d3e269899c779ca3947c6bdc7e9fb3a13fa`: README wordmark source delivery; independent exact-SHA review and protected checks PASS. GitHub source inclusion is distinct from firmware installation and physical acceptance.
+- [PR #26](https://github.com/pcvantol/djconnect-firmware/pull/26), `a72143d5812568cad1b0a782b6bd026b9598e4c3`: separate reconciliation of already merged governance predecessor #8. Exact-SHA review and both protected checks PASS; complete candidate/merge trees equal. It did not publish a firmware release.
 
 ## Roadmap Position
 
-Generation and platform phase remain canonical in `pcvantol/djconnect/PRODUCT_ROADMAP.md`; no new generation, contract or roadmap node is created. Active increment: governance-only Finalization of merged RG-FIRMWARE-001. Brand V2 README work is separate and may proceed only after this reconciliation and fresh local readiness.
+Generation and platform phase remain canonical in `pcvantol/djconnect/PRODUCT_ROADMAP.md`. Active increment: governance-only Finalization of the owner-requested GitHub README branding. Distribution ownership and current firmware/version compatibility remain unchanged. This does not close whole-platform Brand V2 or physical/installed acceptance.
 
 ## Rolling Horizon (Next 5 Planned)
 
-Canonical planning source: `pcvantol/djconnect/docs/roadmap/v1/lanes/DJC-DIST-FIRMWARE.md` and platform roadmap. No release/distribution product successor is dispatched by that lane. The existing owner-requested GitHub-branding follow-up is limited to inserting the exact Core-pinned wordmark block below this repository's README H1, after this Finalization and readiness checks. It does not authorize firmware publication or another capability. No additional execution slots are invented.
+Canonical sources are `pcvantol/djconnect/docs/roadmap/v1/lanes/DJC-DIST-FIRMWARE.md` and platform roadmap. No new distribution capability or release is issued there. The completed README predecessor is excluded. No subsequent execution item is selected by this Finalization; no slots or automatic successor are invented. ESP32 README delivery has its own repository gates and is not claimed complete by this distribution record.
 
 ## Blocked Items
 
-- Finalization merge: independent review, exact-SHA CI and applicable Owner Authorization must pass before normal protected merge.
-- Workspace readiness: this branch is retained until its verified merge and safe cleanup; current branch is not canonical main. After cleanup recheck synchronization, cleanliness and branch disposition before asserting WORKSPACE_READY.
-- Physical/installed firmware acceptance: no admitted target or installed artifact receipt. This does not block the separate README documentation change.
+- Finalization: requires its own independent review, exact-SHA CI and applicable authorization before normal protected merge.
+- Workspace cleanup: the previous governance branch `codex/firmware-governance-reconciliation` is patch-equivalent (`git cherry` leading `-`) but normal `git branch -d` refused squash non-ancestry. It was preserved; no force-delete. Recheck main equality, cleanliness, remote branch removal and the just-completed branches after this merge. Branch retention does not imply missing README source delivery.
+- Installed/physical acceptance: no admitted device or installed-artifact receipt. No installation is part of README branding.
 
 ## Deferred Items
 
-Firmware publication, tags, flash, OTA, compatibility changes and platform-wide branding acceptance are outside this governance increment. No release artifact or immutable history entry is modified.
+Firmware release/publication, tags, flashing, OTA, new compatibility claims and whole-platform branding closure are outside this source transaction. Existing historical receipts and release binaries are retained unchanged.
 
 ## Repository State
 
-Before this protected Finalization merge: **MERGED_UNRECONCILED / FINALIZATION_REVIEWABLE** for predecessor #8.
-Upon this protected Finalization merge: **MERGED_RECONCILED** for predecessor #8. This statement is conditional on actual protected merge, not a premerge completion claim.
+Before this protected Finalization merge: **MERGED_UNRECONCILED / FINALIZATION_REVIEWABLE** for predecessor #27.
+Upon this protected Finalization merge: **MERGED_RECONCILED** for predecessor #27. Actual main readback remains required; this is not a premerge completion claim.
 
 ## Workspace State
 
-**NOT_READY** while this Finalization branch is active. At admission canonical main was clean and synchronized at `2b6a6936decff63d94c1ed3af53c46ba7888dfd6`; final current-main equality and completed-branch cleanup require post-merge readback. No unrelated WIP is changed or discarded. Repository reconciliation is separate from installed acceptance.
+**NOT_READY** until the separate cleanup conditions pass. Canonical local main is clean but lags the README merge while this Finalization branch is active; the earlier squash branch was preserved on ordinary deletion refusal. No unrelated WIP is changed, discarded or stashed. Repository reconciliation and workspace readiness remain separate.
